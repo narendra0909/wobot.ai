@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+* {
+    font-family: Roboto;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.background {
+    background-image: url("https://res.cloudinary.com/ddujkd2is/image/upload/c_scale,h_553,w_1268/v1639755568/Tasty%20kitchen/Background_pkycef.jpg");
+    background-size: cover;
+    background-color: #e5e5e5;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+}
+
+.website-logo {
+    margin: 40px 20px 10px 40px;
+    align-self: flex-start;
+}
+
+.details-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 60px;
+    background: #FFFFFF;
+    box-shadow: 4px 4px 20px rgba(157, 157, 157, 0.12);
+    border-radius: 15px;
+    margin-top: 20px;
+}
+
+
+.heading {
+
+    font-family: Roboto;
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 30px;
+    text-align: center;
+    color: #212121;
+    margin: 20px 0;
+
+}
+
+.description {
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+    color: #545454;
+    margin: 10px 0 20px 0;
+
+}
+
+.input-item {
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0;
+}
+
+.label-class {
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #545454;
+    margin-bottom: 5px;
+}
+
+.input-class {
+    background: #FFFFFF;
+    border: 1px solid #CED4DA;
+    padding: 10px;
+    color: #545454;
+    border-radius: 6px;
+    height: 37px;
+    width: 368px;
+
+
+
+}
+
+.custom-button {
+    height: 25px;
+    width: 64px;
+    border-radius: 2px;
+    padding: 4px, 8px, 4px, 8px;
+    background: #F0F0F0;
+    border-width: 0;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 17px;
+    text-align: center;
+    color: #545454;
+    margin-right: 5px;
+    cursor: pointer;
+
+}
+
+.active {
+    background-color: #3766E8;
+    color: #FFFFFF;
+}
+
+.submit-button {
+    width: 368px;
+    height: 36px;
+    color: #FFFFFF;
+    background: #3766E8;
+    border-radius: 5px;
+    margin: 20px 0;
+    border-width: 0;
+    font-weight: bold;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.terms {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    color: #545454;
+    margin-top: 60px;
+}
